@@ -16,8 +16,8 @@ def _compute_greedy_knapsack(items, constraint_value, knapsack_collection):
         if knaspack_weight > constraint_value:
             break
 
-        cow = items[idx]
-        name, weight = cow
+        item = items[idx]
+        name, weight = item
         verification_weight = knaspack_weight + weight
 
         if verification_weight <= constraint_value:
