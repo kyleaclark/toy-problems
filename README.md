@@ -9,3 +9,8 @@
 ##### Fibonacci Calculation
 * Given an integer find the associated number recursively in a fibonacci sequence, and use a cached value if the number has already been solved for.
 * Solved in JavaScript
+
+##### Knapsack - Greedy Knapsack
+* Implement a greedy algorithm which returns a list of lists where each inner list represents a container of item names.
+* Each container must not exceed the constraint value
+* Solved in Python
