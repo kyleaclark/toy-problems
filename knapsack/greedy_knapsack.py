@@ -1,5 +1,7 @@
 import traceback
 
+__author__ = 'kclark'
+
 
 def generate_knapsack(items_dict, constraint_value):
     items = sorted(items_dict.items(), key=lambda x:x[1], reverse=True)
